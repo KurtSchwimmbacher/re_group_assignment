@@ -7,14 +7,7 @@ import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button'
 
 import img from "../assets/house-images/house-img-1.jpg";
-import img1 from "../assets/house-images/house-img-1.jpg";
-import img2 from "../assets/house-images/house-img-2.jpg";
-import img3 from "../assets/house-images/house-img-3.jpg";
-import img4 from "../assets/house-images/house-img-4.jpg";
-import img5 from "../assets/house-images/house-img-5.jpg";
-import img6 from "../assets/house-images/house-img-6.jpg";
-import img7 from "../assets/house-images/house-img-7.jpg";
-import img8 from "../assets/house-images/house-img-8.jpg";
+
 import logo from "../assets/logo/logo.svg";
 import "../styles/listings.css";
 
