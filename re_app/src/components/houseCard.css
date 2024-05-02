@@ -1,0 +1,14 @@
+.card{
+    background-color: #1E1E1E;
+}
+
+.card-body{
+    color: #ffffff;
+}
+
+.card-btn{
+    background-color: #CD9C20 !important;
+    color: #ffffff !important;
+    border: none;
+}
+

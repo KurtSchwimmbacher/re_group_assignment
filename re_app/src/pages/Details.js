@@ -13,7 +13,7 @@ function Details() {
                 </div>
                 <div className="col-12 img">
                     <h1>Details</h1>
-                    <p></p>
+                    
                 </div>
                 <div className="col-12 search">
                 

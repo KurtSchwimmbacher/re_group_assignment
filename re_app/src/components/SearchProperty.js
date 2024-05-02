@@ -7,7 +7,7 @@ function SearchProperty() {
     return(
         <div className="container-fluid">
             <div className="row outerBox">
-                <div className="col-12 searchBar-prop">
+                <div className="col-6 searchBar-prop">
                 <form
             className="d-flex search-form"
           >
@@ -18,7 +18,7 @@ function SearchProperty() {
               aria-label="Search"
             />
             <button
-              className="btn btn-outline-success"
+              className="btn"
               type="submit"
             >
               <i class="bi bi-search"></i>
