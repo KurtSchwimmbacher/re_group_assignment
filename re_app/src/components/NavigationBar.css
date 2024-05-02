@@ -1,24 +1,23 @@
 .navbar{
-    background-color: #CD9C20;
+    background-color: #CD9C20 !important;
     width: 40%;
     margin: auto;
     border-radius: 0px 0px 15px 15px;
 }
 
-.me-auto{
-    padding: 15px;
-    display: flex;
-    justify-content: center;
+.nav-con{
+   display: flex !important;
+   margin-left: 10%;
 }
 
-.nav-link{
+.navbar-link {
     margin-left: 35px;
     list-style: none;
     text-decoration: none;
     color: #ffffff;
 }
 
-.nav-link:hover{
+.navbar-link:hover{
     font-weight: bold !important;
     border-bottom: 1px solid #ffffff !important;
 }
