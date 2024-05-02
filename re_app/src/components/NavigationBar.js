@@ -20,11 +20,11 @@ function NavigationBar() {
                 Home
                 </Link>
             </Nav.Link>
-            <Nav.Link className='nav-link'>
+            {/* <Nav.Link className='nav-link'>
                 <Link to="/details" className='navbar-link'>
                     Details
                 </Link>
-            </Nav.Link>
+            </Nav.Link> */}
             <Nav.Link className='nav-link'>
                 <Link to="/listings" className='navbar-link'>
                     Listings

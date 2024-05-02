@@ -3,11 +3,11 @@
     width: 40%;
     margin: auto;
     border-radius: 0px 0px 15px 15px;
+    font-family: "Josefin Sans", sans-serif !important;
 }
 
 .nav-con{
    display: flex !important;
-   margin-left: 10%;
 }
 
 .navbar-link {

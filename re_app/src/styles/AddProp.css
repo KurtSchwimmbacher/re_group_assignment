@@ -1,0 +1,26 @@
+.wholeForm{
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    margin: auto;
+}
+
+.info-card{
+    height: 500px;
+}
+
+.pageHeader{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+    margin: auto;
+}
+
+.pageSubHeader{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+    margin: auto;
+}

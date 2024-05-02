@@ -1,3 +1,8 @@
+.homeMainCont{
+    font-family: "Josefin Sans", sans-serif;
+}
+
+
 .img-overlay::before{
     content: '';
     z-index: 10;
@@ -16,3 +21,74 @@
     border-radius: 25;
 }
 
+.card-titles{
+    margin-bottom: -5vh;
+}
+
+.nav, .hero-img, .search, .house-cards{
+    margin-bottom: 5vh;
+}
+
+.search{
+    align-self: center;
+}
+
+.card-col{
+    display: flex;
+    align-items: stretch;
+}
+
+.view-more-listings{
+    display: -webkit-inline-box;
+    padding-left: 8%;
+}
+
+.more-listings-text{
+    margin-right: 5px;
+}
+
+.more-listings-text:hover{
+   cursor: pointer;
+   font-weight: bold;
+}
+
+.addListing{
+    border-radius: 25px;
+    height: 350px;
+    background-color: #1e1e1e;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.addListingCopy{
+    color: white;
+    padding: 5%;
+    max-width: 70.5%;
+}
+
+.addListing_BTN{
+    background-color: #CD9C20 !important;
+    color: white;
+    outline: none !important;
+    border: none;
+}
+/* 
+.image-holder{
+    max-height: 450px; 
+    display: flex;
+    align-items: flex-end;
+} */
+
+/* .hero-img{
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    height: 00px;
+    max-width: 8%;
+    margin-bottom: 20%;
+    background-color: rgba(30, 30, 30, 0.435);
+    margin-top: -25px;
+    display: flex;
+    align-items: center;
+} */

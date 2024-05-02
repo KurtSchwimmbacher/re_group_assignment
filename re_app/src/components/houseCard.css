@@ -1,14 +1,19 @@
 .card{
     background-color: #1E1E1E;
+    margin-top: 5vh;
+    text-decoration: none;
 }
 
 .card-body{
     color: #ffffff;
+    
 }
 
 .card-btn{
     background-color: #CD9C20 !important;
     color: #ffffff !important;
     border: none;
+    float: right;
+    
 }
 

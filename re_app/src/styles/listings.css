@@ -1,0 +1,231 @@
+.App {
+    width: 100vw;
+    height: 100%;
+    margin-left: -10%;
+    overflow: hidden;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+  
+  .logo {
+    width: 3vw;
+    height: 3vh;
+  }
+
+  .return-home-btn{
+    float: right;
+    background-color: #cd9c20;
+    border: none;
+  }
+  
+  .box {
+    background-color: transparent;
+    padding: 20px;
+    position: absolute;
+    inset: 0px;
+    top: 20%;
+    width: 70vw;
+    height: 80vh; 
+    max-width: 100vw;
+    max-height: 100dvh;
+    margin: auto;
+    border: 5px solid white;
+    border-radius: 25px;
+  }
+  
+  .button2 {
+    width: 200px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.651);
+    color: black;
+    margin-left: 660px;
+    text-align: center;
+    padding: 5px;
+    margin-top: -50px;
+    border-radius: 25px;
+  }
+  
+  .butt p {
+    width: 520px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.384);
+    color: white;
+    margin-left: 371px;
+    margin-top: 230px;
+    text-align: center;
+    padding-top: 100px;
+    border-radius: 25px;
+  }
+  
+  .butt h3 {
+    width: 180px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: rgba(245, 245, 245, 0.705);
+    text-align: center;
+    padding: 5px;
+    border-radius: 25px;
+    margin-left: 450px;
+    margin-top: -100px;
+  }
+  
+  .box2 {
+    width: 390px;
+    height: 79vh;
+    background-color: white;
+    position: absolute;
+    top: 60vh;
+    left: 27vw;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 25px;
+  }
+  
+  .find-more-btn{
+    float: right;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: -19px;
+  }
+
+  .subtitle{
+    margin-top: 5vh;
+  }
+
+  .house-img{
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 25px;
+  }
+
+  .box2 p {
+    font-size: 13px;
+  }
+  
+  
+  .button p {
+    text-align-last: center;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .list li {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .list li h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+  }
+  
+  .list li p {
+    font-size: 1rem;
+    color: #666;
+    margin: 10px 0 0 0;
+  }
+  
+  .header h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+  
+  .card-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory;
+  }
+  
+  .card-listing {
+    flex: 0 0 300px;
+    margin-right: 20px;
+    scroll-snap-align: start;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 25px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    transition: transform 0.3s ease; /* Add this line */
+  }
+  
+  .card-listing:hover {
+    transform: scale(1.05); /* Add this line */
+  }
+  
+  .card-listing:last-child {
+    margin-right: 0;
+  }
+  
+  .card-listing button {
+    background-color: #cd9c20;
+    border-radius: 25px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .col-6 img {
+    width: 600px;
+    height: 450px;
+    border: 2px solid #cd9c20;
+    margin-left: 200px;
+    margin-top: 50px;
+    border-radius: 25px;
+  }
+  
+  .col-62 {
+    width: 550px;
+    height: 250px;
+    background-color: #cd9c20;
+    margin-left: 550px;
+    margin-top: -130px;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .col-62 p {
+    margin-top: 100px;
+    color: white;
+  }
+  
+  .col-62 button {
+    width: 150px;
+    height: 48px;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+  }
+  
+  .title h1 {
+    font-size: 80px;
+    text-align: center;
+  }
+  
+ 
+  

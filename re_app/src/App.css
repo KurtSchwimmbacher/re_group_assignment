@@ -1,0 +1,8 @@
+/* Details page */
+
+.logo{
+    
+    background-image: url(./assets/logo/logo.svg);
+    background-position: center;
+    background-size: cover;
+}
