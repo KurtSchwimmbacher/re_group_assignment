@@ -16,4 +16,7 @@ Below is a quick view of our features:
 
 <div>
   <h3>Below are a preview of the wireframes we created for this project:</h3>
+  ![home wireframe](https://github.com/KurtSchwimmbacher/re_group_assignment/assets/125290141/b8da2b7e-46fc-4f78-94d7-06ad851e82d8)
+  ![Uploading View Property3 wireframe.png…]()
+
 </div>
