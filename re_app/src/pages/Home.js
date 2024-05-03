@@ -41,13 +41,22 @@ function Home() {
     
     const [housesArr, setHousesArr] = useState(houses);
     const [topThreeHouses,setTopThreeHouses] = useState([housesArr.slice(0,3)]);
-    const [loaded, setLoaded] =useState(false);
+    const [searchQuery, setSearchQuery] = useState('');
     useEffect( ()=> {
         
-        // get top three houses after sorting =>move to function
-        //setTopThreeHouses(housesArr.slice(0,3));
+        // Filter houses based on searchQuery
+        const filteredHouses = housesArr.filter(house =>
+            house.name.toLowerCase().includes(searchQuery.toLowerCase())
+        );
+        // Update topThreeHouses with filteredHouses
+        setTopThreeHouses(filteredHouses.slice(0, 3));
         console.log(topThreeHouses[0])
-    },[]);
+    },[houseArr,searchQuery]);
+
+
+    const handleSearchChange = (query) => {
+        setSearchQuery(query);
+      };
 
     return(
         <>
@@ -60,7 +69,10 @@ function Home() {
                     
                 </Col>
                 <Col className="col-12 search">
-                <SearchProperty/>
+                    <SearchProperty
+                        properties={housesArr}
+                        onSearchChange={handleSearchChange}
+                    />
                 </Col>
             </Row>
 
