@@ -1,8 +1,9 @@
 /* Details page */
 
-.logo{
-    
-    background-image: url(./assets/logo/logo.svg);
+.banner{
+    width: 650px;
+    height: 230px;
+    background-image: url(./assets/banner.jpg);
     background-position: center;
     background-size: cover;
 }

@@ -4,3 +4,11 @@
     border-radius: 10px;
 }
 
+.results{
+    margin-top: 5vh;
+}
+
+.property-links{
+    color: #1e1e1e;
+    text-decoration: none;
+}

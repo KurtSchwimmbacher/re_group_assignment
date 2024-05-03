@@ -1,0 +1,15 @@
+.card-button{
+    background-color: #CD9C20 !important;
+    color: #ffffff !important;
+    border: none;
+    float: right;
+    margin-top: 10%;
+}
+
+hr{
+    margin-top: 25px;
+}
+
+li{
+    color: #CD9C20;
+}

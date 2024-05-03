@@ -21,15 +21,15 @@ import FooterComp from "../components/FooterComp";
 
 // houses array of obj
 const houses =[
-    {id:1, name:"Serenity Haven", location:"101 Tranquil Trail, Willow Creek",price:"$450,000",bedrooms:4,bathrooms:4, size: "232 sq m", amenities:"Scenic views, spacious deck, gourmet kitchen, home office",img:"house-img-1"},
-    {id:2, name:"Oakwood Retreat", location:"223 Forest Avenue, Evergreen Hills",price:"$550,000",bedrooms:5,bathrooms:4, size: "297 sq m", amenities:"Wooded surroundings, backyard oasis with pool, modern appliances, media room",img:"house-img-2"},
-    {id:3, name:"Coastal Breeze Villa", location:"335 Seaside Drive, Coral Bay",price:"$700,000",bedrooms:3,bathrooms:2, size: "260 sq m", amenities:"Oceanfront property, wraparound porch, spa-inspired master suite, beach access",img:"house-img-3"},
-    {id:4, name:"Mountain View Manor", location:"447 Summit Ridge Road, Aspen Ridge",price:"$900,000",bedrooms:6,bathrooms:5, size: "418 sq m", amenities:"Panoramic mountain views, ski-in/ski-out access, stone fireplace, hot tub",img:"house-img-4"},
-    {id:5, name:" Riverside Retreat", location:"567 Riverbank Lane, Willow Springs",price:"$650,000",bedrooms:4,bathrooms:3, size: "279 sq m", amenities:"Riverfront property, outdoor entertaining area, chef's kitchen, wine cellar",img:"house-img-5"},
-    {id:6, name:"Meadowview Cottage", location:"689 Meadowbrook Drive, Green Valley",price:"$400,000",bedrooms:3,bathrooms:2, size: "186 sq m", amenities:"Tranquil setting, wraparound porch, vaulted ceilings, garden space",img:"house-img-6"},
-    {id:7, name:"Lakeside Oasis", location:"778 Lakefront Way, Azure Shores",price:" $800,000",bedrooms:5,bathrooms:4, size: "353 sq m", amenities:" Private lake access, boat dock, outdoor kitchen, game room",img:"house-img-7"},
-    {id:8, name:"Urban Oasis Loft", location:"1010 Cityscape Boulevard, Metropolitan Heights",price:"$600,000",bedrooms:2,bathrooms:2, size: "167 sq m", amenities:"Sweeping sunset views, expansive deck, home theater, fitness room",img:"house-img-8"},
-    {id:9, name:"Serenity Haven", location:"101 Tranquil Trail, Willow Creek",price:"$450,000",bedrooms:4,bathrooms:4, size: "2,500 sq m", amenities:"City skyline views, open-concept living, rooftop terrace, fitness center access",img:"house-img-9"}
+    {id:1, name:"Serenity Haven", location:"101 Tranquil Trail, Willow Creek",price:450000,bedrooms:4,bathrooms:4, size: "232 sq m", amenities:"Scenic views, spacious deck, gourmet kitchen, home office",img:"house-img-1"},
+    {id:2, name:"Oakwood Retreat", location:"223 Forest Avenue, Evergreen Hills",price:550000,bedrooms:5,bathrooms:4, size: "297 sq m", amenities:"Wooded surroundings, backyard oasis with pool, modern appliances, media room",img:"house-img-2"},
+    {id:3, name:"Coastal Breeze Villa", location:"335 Seaside Drive, Coral Bay",price:700000,bedrooms:3,bathrooms:2, size: "260 sq m", amenities:"Oceanfront property, wraparound porch, spa-inspired master suite, beach access",img:"house-img-3"},
+    {id:4, name:"Mountain View Manor", location:"447 Summit Ridge Road, Aspen Ridge",price:900000,bedrooms:6,bathrooms:5, size: "418 sq m", amenities:"Panoramic mountain views, ski-in/ski-out access, stone fireplace, hot tub",img:"house-img-4"},
+    {id:5, name:" Riverside Retreat", location:"567 Riverbank Lane, Willow Springs",price:650000,bedrooms:4,bathrooms:3, size: "279 sq m", amenities:"Riverfront property, outdoor entertaining area, chef's kitchen, wine cellar",img:"house-img-5"},
+    {id:6, name:"Meadowview Cottage", location:"689 Meadowbrook Drive, Green Valley",price:400000,bedrooms:3,bathrooms:2, size: "186 sq m", amenities:"Tranquil setting, wraparound porch, vaulted ceilings, garden space",img:"house-img-6"},
+    {id:7, name:"Lakeside Oasis", location:"778 Lakefront Way, Azure Shores",price:800000,bedrooms:5,bathrooms:4, size: "353 sq m", amenities:" Private lake access, boat dock, outdoor kitchen, game room",img:"house-img-7"},
+    {id:8, name:"Urban Oasis Loft", location:"1010 Cityscape Boulevard, Metropolitan Heights",price:600000,bedrooms:2,bathrooms:2, size: "167 sq m", amenities:"Sweeping sunset views, expansive deck, home theater, fitness room",img:"house-img-8"},
+    {id:9, name:"Serenity Haven", location:"101 Tranquil Trail, Willow Creek",price:450000,bedrooms:4,bathrooms:4, size: "2,500 sq m", amenities:"City skyline views, open-concept living, rooftop terrace, fitness center access",img:"house-img-9"}
 ];
 
 
@@ -59,13 +59,12 @@ function Listings() {
                             Home
                         </Button>
                         <div className="butt">
-                            <p>
+                            <h6>
                                 An ideal location for anyone looking to make the most out of
                                 living in some of the most vibrant areas of London, whilst
                                 maintaining fantastic access to the city centre and, a fabulous
                                 living space.
-                            </p>
-                            <h3>Select Type</h3>
+                            </h6>
                         </div>
                     </div>
 
@@ -86,30 +85,30 @@ function Listings() {
                             availability.
                         </p>
 
-          <ul className="list">
-            <li>
-              <h2>115k +</h2>
-              <p>Family</p>
-            </li>
-            <li>
-              <h2>9.5k +</h2>
-              <p>Couple</p>
-            </li>
-            <li>
-              <h2>7k +</h2>
-              <p>Single</p>
-            </li>
-          </ul>
+                        <ul className="list">
+                          <li>
+                            <h2>115k +</h2>
+                            <p>Family</p>
+                          </li>
+                          <li>
+                            <h2>9.5k +</h2>
+                            <p>Couple</p>
+                          </li>
+                          <li>
+                            <h2>7k +</h2>
+                            <p>Single</p>
+                          </li>
+                        </ul>
 
-          <div>
-            <img src={img} alt="bottom" className="house-img" />
-          </div>
+                        <div>
+                          <img src={img} alt="bottom" className="house-img" />
+                        </div>
 
-        </div>
-      </div>
-      <div className="header">
-        <h1>Choose Your Dream Home</h1>
-      </div>
+                      </div>
+                    </div>
+                    <div className="header">
+                      <h1>Choose Your Dream Home</h1>
+                    </div>
 
 
 

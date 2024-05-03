@@ -74,12 +74,15 @@
     outline: none !important;
     border: none;
 }
-/* 
+
+
+
+
 .image-holder{
     max-height: 450px; 
     display: flex;
     align-items: flex-end;
-} */
+}
 
 /* .hero-img{
     border-bottom-left-radius: 25px;

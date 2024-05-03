@@ -63,8 +63,8 @@ function Details() {
                     <img src={imgSrc} alt={house.img} />
                     </Col>
 
-                    <div className="logo"></div>
-                    <Col className="col-12 img">
+                    
+                    <Col className="col-6 img">
                         <div className="heading">
 
                             <h1>The Walthamstow Collection</h1>
@@ -73,7 +73,13 @@ function Details() {
                                     each property collection we operate multiple apartments at the same standards. All <br/> apartments are located within 5 minutes walking distance of each-other and are <br/> 
                                     allocated based on availability. An ideal location for anyone looking to make the <br/> most out of living in some of the most vibrant areas of London, whilst maintaining <br/> 
                                     fantastic access to the city centre and, a fabulous living space. Two bedrooms <br/> apartment with 1 bathroom, a kitchen with top appliances, and a large living room.<br/> 
-                                    Six people can comfortably sleep on the property: ...</p>
+                                    <br/>Six people can comfortably sleep on the property <br/>
+                                    Ideal for those seeking the pulse of London living, our accommodations provide easy access to the city center while offering spacious and stylish living spaces. Our two-bedroom apartments feature a well-appointed bathroom, a modern kitchen equipped with top-of-the-line appliances, and a generously sized living room. 
+                                    Comfortably accommodating up to six guests, our properties are perfect for families, groups of friends, or professionals seeking a home away from home. Whether you're exploring the city's cultural gems or simply enjoying the local charm, The Walthamstow Collection promises an unforgettable London experience.
+                                    
+                                </p>
+
+                                <div className="banner"></div>
                         </div>
 
                         

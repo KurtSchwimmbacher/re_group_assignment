@@ -5,8 +5,16 @@ import { useState } from 'react';
 
 import './houseCard.css';
 
+function currencyFormat(num) {
+  return '$' + num.toFixed(2).replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,')
+}
+
 function HouseCard(props) {
+  
   const [imgSrc, setImgSrc] = useState(null);
+
+
+
 
   // Dynamically import image based on name
   import(`../assets/house-images/${props.img}.jpg`)
@@ -20,7 +28,7 @@ function HouseCard(props) {
         <Card.Title>{props.name}</Card.Title>
         <Card.Text>
           Location: {props.location}<br/>
-          Price: {props.price}<br/>
+          Price: {currencyFormat(props.price)}<br/>
         </Card.Text>
         <Link to={`/house/${props.id}`}>
           <Button className='card-btn' variant="primary">View House</Button>

@@ -49,30 +49,21 @@
     border-radius: 25px;
   }
   
-  .butt p {
-    width: 520px;
-    height: 200px;
+
+
+  .butt h6 {
+    width: 46vw;
+    height: 36vh;
     background-color: rgba(0, 0, 0, 0.384);
     color: white;
-    margin-left: 371px;
-    margin-top: 230px;
+    margin-left: 22vw;
+    margin-top: 40vh;
     text-align: center;
-    padding-top: 100px;
+    padding: 5rem;
     border-radius: 25px;
   }
   
-  .butt h3 {
-    width: 180px;
-    height: 50px;
-    background-color: transparent;
-    border: 1px solid white;
-    color: rgba(245, 245, 245, 0.705);
-    text-align: center;
-    padding: 5px;
-    border-radius: 25px;
-    margin-left: 450px;
-    margin-top: -100px;
-  }
+
   
   .box2 {
     width: 390px;
@@ -147,6 +138,7 @@
   .header h1 {
     font-size: 50px;
     text-align: center;
+    margin-top: 5vh;
   }
   
   .card-container {
@@ -225,6 +217,8 @@
   .title h1 {
     font-size: 80px;
     text-align: center;
+    margin-top: 5vh;
+    margin-bottom: -3vh;
   }
   
  
